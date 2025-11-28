@@ -11,13 +11,13 @@ This project was *completed as part of AIML331* at Te Herenga Waka — Victoria 
 - `data/` - Contains 69 consecutive video frames of a race car.
 
 ## Structure
-- `01_sparse_keypoints.ipynb` – Extracts each frame's SIFT descriptors and keypoints, matches the keypoints between consecutive frames, and visualises the tracked keypoints.
-- `02_dense_optical_flow.ipynb` – Computes the dense optical flow between consecutive frames using the Lucas-Kanade method and visualises the computed motion vectors.
-- `03_object_tracking_sift.ipynb` – Tracks a bounding box around the race car using SIFT.
-- `04_object_tracking_optical_flow.ipynb` – Tracks a bounding box around the race car using dense optical flow with the Lucas-Kanade method.
+- `01_sparse_keypoints.ipynb` – Extracts the SIFT descriptors and keypoints from each frame, matches keypoints between consecutive frames, and visualises tracked keypoints.
+- `02_dense_optical_flow.ipynb` – Computes the dense optical flow between consecutive frames using the Lucas-Kanade method and visualises the motion vectors.
+- `03_object_tracking_sift.ipynb` – Tracks a bounding box around the race car using SIFT keypoints.
+- `04_object_tracking_optical_flow.ipynb` – Tracks a bounding box around the race car using dense optical flow.
 
 ## Results
-- Visualisation images are generated for every fifth frame, and are saved in `results/`.
+- Visualisation images are saved for every fifth frame to reduce file clutter, and are saved in `results/`.
 - Sparse keypoint tracking: lines connecting keypoints across consecutive frames.
 - Dense optical flow: arrows showing motion vectors across frames.
 - Bounding box tracking: updated bounding boxes over frames showing tracked car.
