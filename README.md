@@ -17,7 +17,7 @@ This project was *completed as part of AIML331* at Te Herenga Waka — Victoria 
 - `04_object_tracking_optical_flow.ipynb` – Tracks a bounding box around the race car using dense optical flow.
 
 ## Results
-- Visualisation images are saved for every fifth frame to reduce file clutter, and are saved in `results/`.
+- Visualisation images are saved for every fifth frame to reduce file clutter, and are available in `results/`.
 - Sparse keypoint tracking: lines connecting keypoints across consecutive frames.
 - Dense optical flow: arrows showing motion vectors across frames.
 - Bounding box tracking: updated bounding boxes over frames showing tracked car.
